@@ -17,6 +17,15 @@
     margin: 20px 12.5em;
 }
 
+.containers{
+  display: none;
+  margin-left: 12.6em;
+  color: #ffffff;
+  border-radius: 3px;
+  padding: 2px 5px;
+  width: 30%;
+}
+
 .btn button{
     padding: 8px 10px;
     color: white;

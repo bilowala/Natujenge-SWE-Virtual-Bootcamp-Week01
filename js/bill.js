@@ -30,6 +30,7 @@ function showAlert(message, className) {
   const container = document.querySelector(".containers");
   const main = document.querySelector(".mains");
   container.insertBefore(div, main);
+  container.style.display = "block";
 
   setTimeout(() => document.querySelector(".alert").remove(), 3000);
 }
